@@ -6,3 +6,18 @@ class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ('body',)
+
+
+class RecipeForm(forms.ModelForm):
+
+    class Meta:
+        model = Post
+        fields = [
+            'title',
+            'recipe_difficulty',
+            'recipe_length',
+            'content',
+        ]
+
+    def __init__(self, *args, **kwargs):
+        super(RecipeForm, self).__init__(*args, **kwargs)
