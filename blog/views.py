@@ -86,6 +86,29 @@ class PostDetail(View):
             },
         )
 
+    def edit_recipe(request, slug):
+        post = get_object_or_404(Post, slug=slug)
+        recipe_form = RecipeForm(request.POST or None, instance=post)
+        context = {
+            "recipe_form": recipe_form,
+            "post": post,
+        }
+        if request.method == "POST":
+            recipe_form = RecipeForm(request.POST, request.FILES, instance=post)
+            if recipe_form.is_valid():
+                post = recipe_form.save(commit=False)
+                post.author = request.user
+                post.save()
+                return redirect('home')
+            else:
+                recipe_form = RecipeForm(instance=post)
+            return render(request, "edit_recipe.html", context)
+
+    def delete_recipe(request, slug):
+        post = Post.objects.get(slug=slug)
+        post.delete()
+        return redirect('home')
+
 
 class PostLike(View):
     def post(self, request, slug):
