@@ -21,3 +21,12 @@ class RecipeForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super(RecipeForm, self).__init__(*args, **kwargs)
+
+    def recipe_length(self):
+        value = self.cleaned_data.get("length")
+        print(value)
+        if value < 1:
+            raise forms.ValidationError(
+                "The recipe length must be greater than zero"
+            )
+        return value
