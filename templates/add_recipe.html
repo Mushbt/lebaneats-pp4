@@ -1,1 +1,35 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>Add your recipe</title>
+{% endblock %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+    <div class="container">
+        <div class="row">
+            <div class="col mt-3 mb-5">
+                <h1 class="text-center">Add a recipe</h1>
+                <form action="." method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col">
+                            {{ recipe_form | crispy | safe }}
+                            {% csrf_token %}
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="container">
+        <div class="row">
+            <div class="col mt-3 mb-5">
+                <p>You will neeed to <a href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">register</a> an account to start sharing your recipe</p>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+{%endblock}
