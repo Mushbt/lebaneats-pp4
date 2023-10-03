@@ -5,6 +5,10 @@ from .models import Post
 from .forms import CommentForm, RecipeForm
 
 
+def home(request):
+    return render(request, "index.html")
+
+
 def about_us(request):
     return render(request, "about_us.html")
 
@@ -22,7 +26,7 @@ def add_recipe(request):
             recipe_form.author = request.user
             recipe_form.status = 0
             recipe_form.save()
-            return redirect('home')
+            return redirect('blog')
         else:
             return render(request, 'add_recipe.html', context)
     else:
@@ -90,28 +94,30 @@ class PostDetail(View):
             },
         )
 
-    def edit_recipe(request, slug):
-        post = get_object_or_404(Post, slug=slug)
-        recipe_form = RecipeForm(request.POST or None, instance=post)
-        context = {
-            "recipe_form": recipe_form,
-            "post": post,
-        }
-        if request.method == "POST":
-            recipe_form = RecipeForm(request.POST, request.FILES, instance=post)
-            if recipe_form.is_valid():
-                post = recipe_form.save(commit=False)
-                post.author = request.user
-                post.save()
-                return redirect('home')
-            else:
-                recipe_form = RecipeForm(instance=post)
-            return render(request, "edit_recipe.html", context)
 
-    def delete_recipe(request, slug):
-        post = Post.objects.get(slug=slug)
-        post.delete()
-        return redirect('home')
+def edit_recipe(request, slug):
+    post = get_object_or_404(Post, slug=slug)
+    recipe_form = RecipeForm(request.POST or None, instance=post)
+    context = {
+        "recipe_form": recipe_form,
+        "post": post,
+    }
+    if request.method == "POST":
+        recipe_form = RecipeForm(request.POST, request.FILES, instance=post)
+        if recipe_form.is_valid():
+            post = recipe_form.save(commit=False)
+            post.author = request.user
+            post.save()
+            return redirect('home')
+        else:
+            recipe_form = RecipeForm(instance=post)
+        return render(request, "edit_recipe.html", context)
+
+
+def delete_recipe(request, slug):
+    post = Post.objects.get(slug=slug)
+    post.delete()
+    return redirect('blog')
 
 
 class PostLike(View):

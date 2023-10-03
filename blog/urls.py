@@ -3,9 +3,10 @@ from django.urls import path
 
 
 urlpatterns = [
-    path('', views.PostList.as_view(), name='home'),
+    path('home/', views.home, name='home'),
+    path('', views.PostList.as_view(), name='blog'),
     path('about_us/', views.about_us, name='about_us'),
-    path('share_recipe/', views.add_recipe, name="add_recipe"),
+    path('add_recipe/', views.add_recipe, name="add_recipe"),
     path('edit_recipe/<slug:slug>', views.edit_recipe, name="edit_recipe"),
     path('delete_recipe/<slug:slug>', views.delete_recipe, name="delete_recipe"),
     path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
