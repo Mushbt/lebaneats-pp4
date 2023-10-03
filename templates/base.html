@@ -39,6 +39,13 @@
             <li class="nav-item">
               <a class="nav-link" href="{% url 'blog' %}">Blog</a>
             </li>
+            {% if user.is_authenticated %}
+            <li class="nav-item"> 
+              <a class="nav-link {% block active_add_recipe %} {% endblock %}"
+              {% block aria_add_recipe %} {% endblock %}
+                href="{% url 'add_recipe' %}">Share a Recipe</a>
+            </li>
+            {% endif %}
             <li class="nav-item dropdown" style="background-color: red;">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Members
