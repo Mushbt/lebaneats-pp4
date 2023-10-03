@@ -14,7 +14,7 @@ class PostAdmin(SummernoteModelAdmin):
     actions = ['approve_recipes']
 
     def approve_recipes(self, request, queryset):
-        queryset = update(status=1)
+        queryset.update(status=1)
 
 
 @admin.register(Comment)

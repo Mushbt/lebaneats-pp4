@@ -26,7 +26,7 @@ def add_recipe(request):
             recipe_form.author = request.user
             recipe_form.status = 0
             recipe_form.save()
-            return redirect('blog')
+            return render(request, 'index.html', context)
         else:
             return render(request, 'add_recipe.html', context)
     else:
