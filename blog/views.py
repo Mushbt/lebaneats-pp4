@@ -5,6 +5,10 @@ from .models import Post
 from .forms import CommentForm, RecipeForm
 
 
+def about_us(request):
+    return render(request, "about_us.html")
+
+
 def add_recipe(request):
     recipe_form = RecipeForm(request.POST or None, request.FILES or None)
     context = {
