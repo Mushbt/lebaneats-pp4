@@ -28,7 +28,7 @@ def add_recipe(request):
             recipe_form.status = 0
             recipe_form.save()
             messages.success(request, 'Your recipe is awaiting approval')
-            return render(request, 'blog.html', context)
+            return redirect('blog')
         else:
             messages.error(request, 'Invalid, Please try again.')
             return render(request, 'add_recipe.html', context)
