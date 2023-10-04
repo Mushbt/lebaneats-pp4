@@ -116,7 +116,7 @@ def edit_recipe(request, slug):
             post.save()
             messages.success(request, 'You successfully updated your recipe')
             return redirect('blog')
-            
+
         else:
             recipe_form = RecipeForm(instance=post)
     return render(request, "edit_recipe.html", context)
