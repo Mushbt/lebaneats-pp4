@@ -7,19 +7,19 @@
 {% block content %}
 <div class="masthead">
   <div class="container">
-    <h3 class="mb-3 justify-content-center text-center">{% trans "Lebaneats Member Log out" %}</h3>
+    <h3 class="mb-3 justify-content-center text-center" style="color: green;">{% trans "Lebaneats Member Log out" %}</h3>
   </div>
 </div>
 <div class="row">
   <div class="col mt-3 mb-5 justify-content-center text-center">
-    <h1>{% trans "Log Out" %}</h1>
-    <p>{% trans 'Are you sure you want to log out?' %}</p>
+    <h1 style="color: green;">{% trans "Log Out" %}</h1>
+    <p style="color: green;">{% trans 'Are you sure you want to log out?' %}</p>
 <form method="post" action="{% url 'account_logout' %}" >
   {% csrf_token %}
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
   {% endif %}
-  <button type="submit">{% trans 'Log Out' %}</button>
+  <button type="submit" style="color: green;">{% trans 'Log Out' %}</button>
 </form>
   </div>
 </div>
