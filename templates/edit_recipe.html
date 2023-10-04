@@ -7,30 +7,31 @@
 {% endblock %}
 
 {% block content %}
-    {% if user.is_authenticated %}
-    <div class="container">
-        <div class="row">
-            <div class="col mt-3 mb-5">
-                <h1 class="text-center">Edit your recipe</h1>
-                <form method="post" enctype="multipart/form-data">
-                    <div class="row">
-                        <div class="col">
-                            {{ recipe_form | crispy | safe }}
-                            {% csrf_token %}
-                        </div>
+{% if user.is_authenticated %}
+<div class="container">
+    <div class="row">
+        <div class="col mt-3 mb-5">
+            <h1 class="text-center">Edit your recipe</h1>
+            <form method="post" enctype="multipart/form-data">
+                <div class="row">
+                    <div class="col">
+                        {{ recipe_form | crispy | safe }}
+                        {% csrf_token %}
                     </div>
-                    <button type="submit" class="btn btn-success">Edit</button>
-                </form>
-            </div>
+                </div>
+                <button type="submit" class="btn btn-success">Edit</button>
+            </form>
         </div>
     </div>
-    {% else %}
-    <div class="container">
-        <div class="row">
-            <div class="col mt-3 mb-5">
-                <p>You will neeed to <a href="{% url 'account_login' %}">log in</a> or <a href="{% url 'account_signup' %}">register</a> an account to edit your recipe</p>
-            </div>
+</div>
+{% else %}
+<div class="container">
+    <div class="row">
+        <div class="col mt-3 mb-5">
+            <p>You will neeed to <a href="{% url 'account_login' %}">log in</a> or <a
+                    href="{% url 'account_signup' %}">register</a> an account to edit your recipe</p>
         </div>
     </div>
-    {% endif %}
+</div>
+{% endif %}
 {% endblock %}

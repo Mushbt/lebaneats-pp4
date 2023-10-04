@@ -24,8 +24,10 @@
         <div class="col card mb-4 mt-3 left top">
             <div class="card-body">
                 {% if user.id == post.author.id %}
-                <a href="{% url 'edit_recipe' post.slug %}" class="edit"><button class="btn btn btn-success" value="{{ post.slug }}" type="button">Edit</button></a>
-                <a href="{% url 'delete_recipe' post.slug %}" class="delete"><button class="btn btn btn-success" value="{{ post.slug }}" type="button">Delete</button></a>
+                <a href="{% url 'edit_recipe' post.slug %}" class="edit"><button class="btn btn btn-success"
+                        value="{{ post.slug }}" type="button">Edit</button></a>
+                <a href="{% url 'delete_recipe' post.slug %}" class="delete"><button class="btn btn btn-success"
+                        value="{{ post.slug }}" type="button">Delete</button></a>
                 {% endif %}
             </div>
         </div>
@@ -47,11 +49,13 @@
                                 {% csrf_token %}
                                 {% if liked %}
 
-                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i class="fas fa-heart"></i></button>
+                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i
+                                        class="fas fa-heart"></i></button>
 
                                 {% else %}
 
-                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i class="far fa-heart"></i></button>
+                                <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i
+                                        class="far fa-heart"></i></button>
 
                                 {% endif %}
                             </form>
@@ -64,8 +68,8 @@
                     </div>
                     <div class="col-1">
                         {% with comments.count as total_comments %}
-                       <strong class="text-secondary"><i class="far fa-comments"></i> {{ total_comments }} </strong>
-                       {% endwith %}
+                        <strong class="text-secondary"><i class="far fa-comments"></i> {{ total_comments }} </strong>
+                        {% endwith %}
                     </div>
                 </div>
             </div>
