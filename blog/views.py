@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
+from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm, RecipeForm
 
@@ -122,7 +123,7 @@ def delete_recipe(request, slug):
 
 
 class PostLike(View):
-    def post(self, request, slug):
+    def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
 
         if post.likes.filter(id=request.user.id).exists():

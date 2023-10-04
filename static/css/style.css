@@ -16,6 +16,10 @@ footer{
     color: green;
 }
 
+.navbar-brand:active {
+    color: green;
+}
+
 .nav-link {
     color: white;
 }
@@ -24,10 +28,18 @@ footer{
     color: green;
 }
 
+.nav-link:active {
+    color: green;
+}
+
 .dropdown-item {
     color: white;
 }
 
 .dropdown-item:hover {
+    color: green;
+}
+
+.dropdown-item:active {
     color: green;
 }
