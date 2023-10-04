@@ -10,7 +10,7 @@ class Post(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="blog_posts")
     updated_on = models.DateTimeField(auto_now=True)
-    content = models.TextField()
+    instructions = models.TextField()
     featured_image = CloudinaryField('image', default='placeholder')
     exerpt = models.TextField(blank=True)
     created_on = models.DateTimeField(auto_now_add=True)
@@ -19,6 +19,7 @@ class Post(models.Model):
     description = models.TextField(blank=True)
     recipe_length = models.IntegerField(default=0)
     recipe_difficulty = models.CharField(max_length=200)
+    ingredients = models.TextField(blank=True)
     directions = models.TextField(blank=True)
     is_approved = models.BooleanField(default=False)
 

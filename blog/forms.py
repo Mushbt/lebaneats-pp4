@@ -16,7 +16,8 @@ class RecipeForm(forms.ModelForm):
             'title',
             'recipe_difficulty',
             'recipe_length',
-            'content',
+            'ingredients',
+            'instructions',
         ]
 
     def __init__(self, *args, **kwargs):
