@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-mushbt-lebaneatspp4-7x8mpiq4sa9.ws-eu105.gitpod.io', 'lebaneats.herokuapp.com', 'localhost', 'lebaneats-e428f9dc7d63.herokuapp.com']
+ALLOWED_HOSTS = ['8000-mushbt-lebaneatspp4-ik88vbxrqw8.ws-eu105.gitpod.io', 'lebaneats.herokuapp.com', 'localhost', 'lebaneats-e428f9dc7d63.herokuapp.com']
 
 
 # Application definition
