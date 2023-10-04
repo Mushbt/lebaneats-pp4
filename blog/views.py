@@ -1,6 +1,5 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
-from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm, RecipeForm
 
@@ -98,6 +97,7 @@ class PostDetail(View):
 def edit_recipe(request, slug):
     post = get_object_or_404(Post, slug=slug)
     recipe_form = RecipeForm(request.POST or None, instance=post)
+    
     context = {
         "recipe_form": recipe_form,
         "post": post,
@@ -109,9 +109,10 @@ def edit_recipe(request, slug):
             post.author = request.user
             post.save()
             return redirect('home')
+            
         else:
             recipe_form = RecipeForm(instance=post)
-        return render(request, "edit_recipe.html", context)
+    return render(request, "edit_recipe.html", context)
 
 
 def delete_recipe(request, slug):
