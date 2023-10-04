@@ -3,6 +3,7 @@ from django.views import generic, View
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm, RecipeForm
+from django.contrib import messages
 
 
 def home(request):
@@ -26,8 +27,10 @@ def add_recipe(request):
             recipe_form.author = request.user
             recipe_form.status = 0
             recipe_form.save()
-            return render(request, 'index.html', context)
+            messages.success(request, 'Your recipe is awaiting approval')
+            return render(request, 'blog.html', context)
         else:
+            messages.error(request, 'Invalid, Please try again.')
             return render(request, 'add_recipe.html', context)
     else:
         recipe_form = RecipeForm()
@@ -79,7 +82,9 @@ class PostDetail(View):
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
+            messages.success(request, 'Your comment is awaiting approval')
         else:
+            messages.error(request, 'Invalid, Please try again.')
             comment = CommentForm()
 
         return render(
@@ -109,7 +114,8 @@ def edit_recipe(request, slug):
             post = recipe_form.save(commit=False)
             post.author = request.user
             post.save()
-            return redirect('home')
+            messages.success(request, 'You successfully updated your recipe')
+            return redirect('blog')
             
         else:
             recipe_form = RecipeForm(instance=post)
@@ -119,6 +125,7 @@ def edit_recipe(request, slug):
 def delete_recipe(request, slug):
     post = Post.objects.get(slug=slug)
     post.delete()
+    messages.success(request, 'You successfully deleted your recipe')
     return redirect('blog')
 
 
