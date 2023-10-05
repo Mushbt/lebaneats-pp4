@@ -137,7 +137,23 @@ The User Model is a builtin Django model which contains the following.
 - is_superuser
 - last_login
 - date_joined
+
 #### Post Model
+The Post Model contains the following:
+- title
+- slug
+- author(ForeignKey)
+- updated_on
+- instructions
+- featured_image
+- exerpt
+- created_on
+- status
+- likes
+- recipe_length
+- recipe_difficulty
+- ingredients
+- is_approved
 
 #### Comment Model
 
