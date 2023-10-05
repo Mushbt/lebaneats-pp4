@@ -338,6 +338,46 @@ The wireframes were created using Balsamiq
 
 ## Validation
 
+The W3C Markup Validation Service
+<details><summary>Home</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>About</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Blog</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Share a recipe</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Register</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Login</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Logout</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Edit recipe</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Delete recipe</summary>
+<img src="insert image here">
+</details>
+
+##### Back to [top](#table-of-contents)
+<hr>
+
 ### Lighthouse
 
 ## Testing
