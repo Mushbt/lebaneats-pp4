@@ -9,17 +9,17 @@
 {% block content %}
 <div class="masthead">
   <div class="container">
-    <h3 class="mb-3 justify-content-center text-center">{% trans "Lebaneats Member Login" %}</h3>
+    <h3 class="mb-3 justify-content-center text-center" style="color: green;">{% trans "Lebaneats Member Login" %}</h3>
     </div>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col mt-3 justify-content-center text-center">
-      <p class="mb-3">{% blocktrans %}
+      <p class="mb-3" style="color: green;">{% blocktrans %}
         To share a recipe, leave a comment or like a post, please log in to your account. 
         If you have not got an account yet, please
-        <a  href="{{ signup_url }}">register</a>.{% endblocktrans %}
+        <a  href="{{ signup_url }}" style="color: green;">register</a>.{% endblocktrans %}
       </p>
     </div>
   </div>
@@ -30,9 +30,9 @@
         {% csrf_token %}
         {{ form.as_p }}
         {% if redirect_field_value %}
-        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
         {% endif %}
-        <button class="btn btn-warning right" type="submit">{% trans "Login" %}</button>
+        <button class="btn btn-warning right" type="submit" style="background-color: green; border: green; color: white;">{% trans "Login" %}</button>
       </form>
     </div>
   </div>
