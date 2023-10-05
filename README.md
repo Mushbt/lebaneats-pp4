@@ -30,3 +30,7 @@
 - [Heroku Deployment](#heroku-deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
+
+### About
+Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can view other user's recipes and can create their own account to share a recipe of their own.
+<hr>
