@@ -118,6 +118,8 @@ I chose the colors of the Lebanese flag as I thought this would compliment a Leb
 
 #### Database
 
+- Built with Python and the Django framework with a database of Postgres for the deployed Heroku version.
+
 #### User Model
 
 #### Post Model
