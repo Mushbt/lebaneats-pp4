@@ -37,6 +37,15 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 
 ### User Goals
 
+- Cuisine Exploration - To explore Lebanese cuisine in the hope of trying new flavours.
+- Recipe Search - To find a new recipe or to find a variation of a recipe.
+- Ingredients - To know what ingredients are used for a specific recipe.
+- Instructions - To see how a specific dish was made.
+- Recipe difficulty - To see how easy or hard a dish is to prepare.
+- Recipe length - To see how long a dish will take to prepare.
+- User reviews and comments - To be able to see other users reviews or comments on a specific recipe.
+- Adding recipe - To be able to share a recipe with others.
+
 ### Site Owner Goals
 <hr>
 
