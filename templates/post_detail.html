@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row g-0">
             <div class="col-md-6">
-                <h1 class="post-title">{{ post.title }}</h1>
+                <h1 class="post-title" style="color: green;">{{ post.title }}</h1>
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
             <div class="d-md-block">
@@ -24,10 +24,10 @@
         <div class="col card mb-4 mt-3 left top">
             <div class="card-body">
                 {% if user.id == post.author.id %}
-                <a href="{% url 'edit_recipe' post.slug %}" class="edit"><button class="btn btn btn-success"
-                        value="{{ post.slug }}" type="button">Edit</button></a>
-                <a href="{% url 'delete_recipe' post.slug %}" class="delete"><button class="btn btn btn-success"
-                        value="{{ post.slug }}" type="button">Delete</button></a>
+                <a href="{% url 'edit_recipe' post.slug %}" class="edit"><button class="btn btn-success"
+                        value="{{ post.slug }}" type="button" style="background-color: green;">Edit</button></a>
+                <a href="{% url 'delete_recipe' post.slug %}" class="delete"><button class="btn btn-success"
+                        value="{{ post.slug }}" type="button"  style="background-color: red; border: red;">Delete</button></a>
                 {% endif %}
             </div>
         </div>
@@ -110,7 +110,7 @@
                 <form method="post" style="margin-top: 1.3em;">
                     {% csrf_token %}
                     {{ comment_form | crispy }}
-                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit" class="btn btn-success" style="background-color: green;">Submit</button>
                 </form>
                 {% endif %}
                 {% endif %}
