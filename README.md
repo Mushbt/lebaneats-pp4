@@ -368,6 +368,10 @@ The W3C Markup Validation Service
 <img src="insert image here">
 </details>
 
+<details><summary>Add recipe</summary>
+<img src="insert image here">
+</details>
+
 <details><summary>Edit recipe</summary>
 <img src="insert image here">
 </details>
@@ -418,10 +422,80 @@ PEP8 Validation Service was used to check the code for PEP8 requirements via Pyc
 <img src="Insert image here">
 </details>
 
+### Lighthouse
+
+Performance, best practices, and SEO were tested using Lighthouse.
+
+#### Desktop
+
+<details><summary>Index</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>About Us</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Blog</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Register</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Login</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Logout</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Create recipe</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Edit recipe</summary>
+<img src="insert image here">
+</details>
+
+#### Mobile
+
+<details><summary>Index</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>About Us</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Blog</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Register</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Login</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Logout</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Create recipe</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Edit recipe</summary>
+<img src="insert image here">
+</details>
+
 ##### Back to [top](#table-of-contents)
 <hr>
-
-### Lighthouse
 
 ## Testing
 
