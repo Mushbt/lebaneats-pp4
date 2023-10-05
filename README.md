@@ -106,6 +106,15 @@ I chose the colors of the Lebanese flag as I thought this would compliment a Leb
 ### Structure
 
 #### Site Pages
+- The site consists of the following pages:
+  - A Home page that is supposed to look like the Lebanese flag with a welcome message.
+  - An About page that tells users what the blog is about and what to expect when it comes to Lebanese cuisine.
+  - A blog page where recipes for different Lebanese dishes can be found. Registered users can also create, edit, and delete their recipes.
+  - A Share a Recipe page where registered users can share their own recipes.
+  - A Edit Recipe page where recipe owners can edit their posts.
+  - A Register page where users can register to be able to access all functionality of the site.
+  - A login page where registered users can login.
+  - A logout page for users to logout from site once they are done. 
 
 #### Database
 
