@@ -338,6 +338,7 @@ The wireframes were created using Balsamiq
 
 ## Validation
 
+### HTML Validation
 The W3C Markup Validation Service
 <details><summary>Home</summary>
 <img src="insert image here">
@@ -373,6 +374,48 @@ The W3C Markup Validation Service
 
 <details><summary>Delete recipe</summary>
 <img src="insert image here">
+</details>
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service
+
+<details><summary>Style.css</summary>
+<img src="insert image here">
+</details><hr>
+
+### PEP8 Validation
+PEP8 Validation Service was used to check the code for PEP8 requirements via Pycodestyle as PEP8online was down
+
+<details><summary>Tool used: Pycodestyle</summary>
+<img src="insert image here">
+</details>
+
+<hr><summary>Lebaneats</summary><hr>
+
+<details><summary>urls.py</summary>
+<img src="Insert image here">
+</details>
+
+<hr><summary>Blog</summary><hr>
+
+<details><summary>admin.py</summary>
+<img src="Insert image here">
+</details>
+
+<details><summary>forms.py</summary>
+<img src="Insert image here">
+</details>
+
+<details><summary>models.py</summary>
+<img src="Insert image here">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="Insert image here">
+</details>
+
+<details><summary>views.py</summary>
+<img src="Insert image here">
 </details>
 
 ##### Back to [top](#table-of-contents)
