@@ -16,11 +16,9 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
-    description = models.TextField(blank=True)
     recipe_length = models.IntegerField(default=0)
     recipe_difficulty = models.CharField(max_length=200)
     ingredients = models.TextField(blank=True)
-    directions = models.TextField(blank=True)
     is_approved = models.BooleanField(default=False)
 
     class Meta:
