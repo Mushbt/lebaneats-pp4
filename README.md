@@ -63,6 +63,10 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 - Users who like to share their own variations of recipes.
 
 ### User Requirements and Expectations
+- Fully responsive
+- A welcoming design
+- Simple to use and navigate through
+- Social media
 
 ##### Back to [top](#table-of-contents)
 <hr>
