@@ -57,6 +57,10 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 ## User Experience
 
 ### Target Audience
+- Users who enjoy cooking and experimenting with recipes at home.
+- Users who are new to cooking or less experienced in the kitchen.
+- Users who enjoy trying new foods, cuisines and unique recipes.
+- Users who like to share their own variations of recipes.
 
 ### User Requirements and Expectations
 
