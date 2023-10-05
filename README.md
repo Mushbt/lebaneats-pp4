@@ -156,6 +156,13 @@ The Post Model contains the following:
 - is_approved
 
 #### Comment Model
+The Comment Model contains the following:
+- post(ForeignKey)
+- name
+- email
+- body
+- created_on
+- approved
 
 ### Wireframes
 
