@@ -174,6 +174,12 @@ The wireframes were created using Balsamiq
 
 ### Languages & Frameworks
 
+- HTML
+- CSS
+- Javascript
+- Python
+- Django
+
 ### Libraries & Tools
 
 ## Features
