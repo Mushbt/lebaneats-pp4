@@ -124,7 +124,19 @@ I chose the colors of the Lebanese flag as I thought this would compliment a Leb
 </details>
 
 #### User Model
-
+The User Model is a builtin Django model which contains the following.
+- user_id
+- first_name
+- last_name
+- email
+- password
+- groups
+- user_permission
+- is_staff
+- is_active
+- is_superuser
+- last_login
+- date_joined
 #### Post Model
 
 #### Comment Model
