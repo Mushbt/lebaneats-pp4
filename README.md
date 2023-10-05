@@ -47,7 +47,7 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 - To be able to share a recipe with others.
 
 ### Site Owner Goals
-- Fully responsive and accessible.
+- Fully responsive.
 - To provide a easy to navigate through blog.
 - To share my own recipes.
 - To allow users to share their own recipes.
