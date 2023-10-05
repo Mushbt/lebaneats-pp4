@@ -165,6 +165,10 @@ The Comment Model contains the following:
 - approved
 
 ### Wireframes
+The wireframes were created using Balsamiq
+<details><summary></summary>
+<img src="">[insert image here]
+</details>
 
 ## Technologies Used
 
