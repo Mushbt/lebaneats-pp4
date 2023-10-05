@@ -39,9 +39,18 @@
         <div class="col card mb-4  mt-3 left top">
             <div class="card-body">
                 <p class="card-text">
+                <p>Length:</p>
+                {{ post.recipe_length }}
+                <hr>
+                <p>Difficulty:</p>
+                {{ post.recipe_difficulty }}
+                <hr>
+                <p>Ingredients:</p>
                 {{ post.ingredients|safe }}
                 <hr>
+                <p>Instructions:</p>
                 {{ post.instructions|safe }}
+                <hr>
                 </p>
                 <div class="row">
                     <div class="col-1">
