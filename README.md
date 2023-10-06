@@ -75,11 +75,12 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 
 ### Users
 
+
 ### Admin / Authorised User
 
 ### Site Owner
 
-### Kanban & User Stories
+### Kanban, Epics & User Stories
 
 <details><summary>Kanban</summary>
 [images go here]
