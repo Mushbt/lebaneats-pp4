@@ -130,8 +130,8 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 ### Colors
 I chose the colors of the Lebanese flag as I thought this would compliment a Lebanese food blog which should be bright and colorful.
 <details><summary>See color pallet and flag</summary>
-<img src="">[Add image here]
-<img src="">[Add image here]
+<img src="">
+<img src="">
 </details>
 
 ### Fonts
