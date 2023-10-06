@@ -75,10 +75,36 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 
 ### Users
 
+- As a Site User I can view a list of posts so that I can select one to read (Must Have)
+- As a Site User I can click on a post so that I can read the full text (Must Have)
+- As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral (Must Have)
+- As a Site User / Admin I can view comments on an individual post so that I can read the conversation. (Must Have)
+- As a Site User I can navigate easily through the site so that I can move between the different features of the site (Must Have)
 
 ### Admin / Authorised User
 
+- As a Site User I can register an account so that I can create, edit, delete a post as well as liking and commenting on other posts (Must Have)
+- As a Site User I can leave comments on a post so that I can be involved in the conversation (Must Have)
+- As a Site User I can like or unlike a post so that I can interact with the content (Must Have)
+- As a Site User I can create a post so that other site users can view it (Must Have)
+- As a Site User I can edit the post that I have created so that I can add or remove anything I have forgotten or added by accident (Must Have)
+- As a Site User I can delete my post so that other site users cannot see it (Must Have)
+- As a Site User I am notified when I post, edit and delete a post or when I register, login or logout of my account so that I know if my intended action was successful (Should have)
+- As a Site User I can login so that I can have access to all functions of the site (Must Have)
+- As a Site User I can logout so that I can secure my account on the site (Must Have)
+
 ### Site Owner
+
+- As a Site Admin I can approve or disapprove user posts so that I can manage my blog content (Must Have)
+- As a Site Admin I can create draft posts so that I can finish writing the content later (Must Have)
+- As a Site Admin I can approve or delete comments so that I can filter out objectionable comments (Must Have)
+- As a Site Owner I can provide pagination so that users have better user experience while on the site (Should Have)
+- As a Site Owner I can provide an about us page so that the user can get information on what the site or content is about (Should Have)
+- As a Site Owner I can provide a fully responsive site so that users have a good user experience (Must Have)
+
+### Won't Have / Future Functionality
+- As a Site User I can contact the admin so that I can report any issues with the site
+- As a Admin I can create events so that Site Users can attend for example an online cooking tutorial
 
 ### Kanban, Epics & User Stories
 
