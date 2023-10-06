@@ -702,8 +702,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Click on the 'About Us' link in the navigation bar | About us page will render | Works as expected |
 
 <details><summary>See feature images</summary>
 
@@ -714,11 +713,23 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| All site pages were tested using [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/) and [Am I Responsive](https://ui.dev/amiresponsive) | All pages were responsive on different screen sizes | Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -726,7 +737,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
+| When registered user posts a recipe via the 'Share a recipe' tab in the navbar | User will see a '| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
 <details><summary>See feature images</summary>
