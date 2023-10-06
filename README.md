@@ -608,8 +608,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must press on the 'Add Post' button located top right corner of the page. A 'Add Post' page will load and the admin can fill out the Post form. If they do not want it published, they can use the drop down menu by the 'Status' section to choose 'Draft'. Admin must then press | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must press on the 'Add Post' button located top right corner of the page. A 'Add Post' page will load and the admin can fill out the Post form. If they do not want it published, they can use the drop down menu by the 'Status' section to choose 'Draft'. Admin must then press the 'Save' button.| Admin 'Post' page will load and a 'Post added successfully' message will appear.| Works as expected |
 
 <details><summary>See feature images</summary>
 

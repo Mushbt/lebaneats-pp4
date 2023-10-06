@@ -19,8 +19,8 @@ class Post(models.Model):
     description = models.TextField(blank=True)
     recipe_length = models.IntegerField(default=0)
     recipe_difficulty = models.CharField(max_length=200)
-    directions = models.TextField()
-    ingredients = models.TextField(blank=True)
+    directions = models.TextField(blank=True)
+    ingredients = models.TextField()
     is_approved = models.BooleanField(default=False)
 
     class Meta:
