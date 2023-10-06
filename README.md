@@ -861,5 +861,10 @@ You can clone the repository by following these steps:
 ### Images
 
 ### Code
+- I used the [Code Institute](https://codeinstitute.net/) 'I Think Therefore I Blog' walkthrough as my project base but added my own CRUD functionality and design.
 
 ## Acknowledgements
+The site was done as part of a project piece for my Full Stack Software Development Diploma at the [Code Institute](https://codeinstitute.net/).
+I would like to thank my mentor Mo Shami for all his advice and help throughout. I would like to also thank the Slack community and the tutors at The Code Institute for their help whenever it was needed.
+
+Mustafa Habet 2023.
