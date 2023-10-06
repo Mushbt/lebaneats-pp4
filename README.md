@@ -527,8 +527,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Once on the blog page | All posts have a heart with a number to show how many likes it has| Works as expected |
 
 <details><summary>See feature images</summary>
 
@@ -539,8 +538,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Once any post is clicked, the post will open | Comments are rendered on the bottom of the post| Works as expected |
 
 <details><summary>See feature images</summary>
 
@@ -551,11 +549,12 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Click on the 'Members' link in the navigation bar and on the drop down menu click on the 'Register' link | Register form will load| Works as expected |
+| Fill the form and click 'Sign up' button | Blog page will open with a 'success' message at the top so the user knows they have registered | Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -563,8 +562,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| If you are logged in, once on a specific post, you can write a comment in the 'Leave a Comment' section and press Submit | Post page will reload and a 'waiting for approval message will appear'. Once admin has approved, comment will appear in the 'Comments' section | Works as expected |
 
 <details><summary>See feature images</summary>
 
@@ -575,23 +573,34 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| If you are logged in, once on a specific post, press on the heart icon | if you have not liked the post before, heart will turn black and number will increment by 1 | Works as expected |
+| If you are logged in, once on a specific post, press on the heart icon | if you liked the post before, heart will turn white and number will decrement by 1| Works as expected |
 
 <details><summary>See feature images</summary>
 
 ![](Insert image here)
+![](Insert image here)
 </details>
 
-8. As a Site Admin I can approve or disapprove user posts so that I can manage my blog content
+8. As a Site Admin I can approve or delete user posts so that I can manage my blog content
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must tick the white box beside the post they want to approve. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Approve Recipe' and then press on the 'Go' button | The posts status will go from 'Draft' to 'Published', which will be the 3rd column on the specific post row.| Works as expected |
+| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must tick the white box beside the post they want to delete. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Delete Selected Posts' and then press on the 'Go' button. Once pressed, a new page will load asking the Admin if they are sure they want to delete the post. Admin must then press on the 'Yes, I'm sure button' | Post will be deleted and a 'Successfuly deleted' message will appear| Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -599,7 +608,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
+| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must press on the 'Add Post' button located top right corner of the page. A 'Add Post' page will load and the admin can fill out the Post form. If they do not want it published, they can use the drop down menu by the 'Status' section to choose 'Draft'. Admin must then press | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
 <details><summary>See feature images</summary>
