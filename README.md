@@ -238,9 +238,9 @@ Wireframes were not used in this project. The base of the design came from the [
 ## Features
 
 ### Home page
-- Home page includes a navbar, main body and a footer.
+The home page includes a navbar, a main body, and a footer.
 
-<details><summary>See feature image</summary>
+<details><summary>See featured image</summary>
 
 ![Homepage](insert image here)
 </details>
