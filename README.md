@@ -798,8 +798,30 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ![](Insert image here)
 </details>
 
+##### Back to [top](#table-of-contents)
+<hr>
 
 ### Device Testing & Browser Compatibility
+
+The live site was tested by me, my friends, my family and members of the Slack Community.
+
+The following devices were used: 
+- Iphone 12 pro
+- Samsung S10 Plus
+- Samsung S21 Plus
+- Iphone XS Max
+- Iphone 13
+- Samsung S22 Plus
+- Ipad Mini
+- Desktop
+- Laptop
+- Samsung Tab
+
+The following browsers were used:
+- Google Chrome
+- Safari
+- Samsung Internet
+- Firefox
 
 ## Bugs
 
