@@ -135,6 +135,7 @@ I chose the colors of the Lebanese flag as I thought this would compliment a Leb
 </details>
 
 ### Fonts
+I decided to keep the simple font that Bootstrap provides via the Bootstrap CSS. Reason was that the site was colorful and changing the font made it unfocusing.
 
 ### Structure
 
