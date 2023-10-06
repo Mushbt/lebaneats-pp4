@@ -613,17 +613,29 @@ Performance, best practices, and SEO were tested using Lighthouse.
 <details><summary>See feature images</summary>
 
 ![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 </details>
 
-10. As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
+10. As a Site Admin I can approve or delete comments so that I can filter out objectionable comments
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Comments' link under the 'Blog' section. Then admin must tick the white box beside the comment they want to approve. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Approve Comment' and then press on the 'Go' button | The comment 'Approved' coloumn will have a green tick which indicates the comment was approved | Works as expected |
+| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Comments' link under the 'Blog' section. Then admin must tick the white box beside the comment they want to delete. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Delete Selected Comment' and then press on the 'Go' button. Once pressed, a new page will load asking the Admin if they are sure they want to delete the comment. Admin must then press on the 'Yes, I'm sure button'  | Post will open up| Comment will be deleted and a 'Successfuly deleted' message will appear |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -631,23 +643,31 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Once Site User is a member, they can click on the 'Share a Recipe' tab in the navbar. Add a Recipe page will render where the User must fill out all the fields in the form. Once done, they must press on the 'Submit' button on the bottom of the form. | Blog page will render with a message at the top of the page stating that their post is waiting approval. Post will show on the blog once approved by the admin | Works as expected |
 
 <details><summary>See feature images</summary>
 
 ![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 </details>
 
-12. As a Site User I can edit my post that I have created so that I can add or remove anything I have forgotten or added by accident
+12. As a Site User I can edit the post that I have created so that I can add or remove anything I have forgotten or added by accident.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Once the registered user has logged in, they can click on their post on the blog page. Once their post has rendered, they should press on the 'Edit' button which is located under the post image. Edit your recipe form will render which the user can then make their updates on. Once the user is finished editing, they should press on the 'Edit' button at the bottom of the form. | Blog page will render and a message will appear on the top of the page telling the user they successfully updated their recipe. | Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -655,15 +675,30 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
+| Once the registered user has logged in, they can click on their post on the blog page. Once their post has rendered, they should press on the 'Delete' button which is located under the post image. |  Blog page will render and a message will appear on the top of the page telling the user they successfully deleted their recipe.| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+</details>
+
+14. As a Site Owner I can provide pagination so that users have better user experience while on the site
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Once there are 6 posts on the blog page.  | The 7th post will appear on another page which can be accessed by pressing on the 'Next' button at the bottom of the blog page | Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
 <details><summary>See feature images</summary>
 
 ![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 </details>
 
-14. As a Admin I can approve posts so that I can manage by blog content
+15. As a Site Owner I can provide an about us page so that the user can get information on what the site or content is about
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -675,7 +710,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ![](Insert image here)
 </details>
 
-15. 
+16. As a Site Owner I can provide a fully responsive site so that users have a good user experience
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -687,7 +722,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ![](Insert image here)
 </details>
 
-16. 
+17. As a Site User I am notified when I post, edit and delete a post or when I register, login or logout of my account so that I know if my intended action was successful
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -699,7 +734,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ![](Insert image here)
 </details>
 
-17. As a Site Owner I can provide pagination so that users have better user experience while on the site
+18. As a Site User I can login so that I can have access to all functions of the site
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -711,7 +746,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ![](Insert image here)
 </details>
 
-18. As a Site Owner I can provide an about us page so that the user can get information on what the site or content is about
+19. As a Site User I can logout so that I can secure my account on the site
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -723,55 +758,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ![](Insert image here)
 </details>
 
-19. As a Site Owner I can provide a fully responsive site so that users have a good user experience
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
-
-<details><summary>See feature images</summary>
-
-![](Insert image here)
-</details>
-
-20. As a Site User I am notified when I post, edit and delete a post or when I register, login or logout of my account so that I know if my intended action was successful
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
-
-<details><summary>See feature images</summary>
-
-![](Insert image here)
-</details>
-
-21. As a Site User I can login so that I can have access to all functions of the site
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
-
-<details><summary>See feature images</summary>
-
-![](Insert image here)
-</details>
-
-22. As a Site User I can logout so that I can secure my account on the site
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
-
-<details><summary>See feature images</summary>
-
-![](Insert image here)
-</details>
-
-23. As a Site User I can navigate easily through the site so that I can move between the different features of the site
+20. As a Site User I can navigate easily through the site so that I can move between the different features of the site
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
