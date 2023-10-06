@@ -154,7 +154,7 @@ I decided to keep the simple font that Bootstrap provides via the Bootstrap CSS.
 
 - When creating the database structure schema for this project, I made use of the [Figma](https://figma.com/) website. This online tool provided me with a visual platform to create and document the database schema, streamlining the planning and implementation process for the blog application's database.
 <details><summary>Database Schema</summary>
-<img src="">[Add image here]
+<img src="static/media/readme_img/database_schema.png">
 </details>
 
 #### User Model
@@ -199,10 +199,7 @@ The Comment Model contains the following:
 - approved
 
 ### Wireframes
-The wireframes were created using Balsamiq
-<details><summary></summary>
-<img src="">[insert image here]
-</details>
+
 
 ## Technologies Used
 
@@ -217,7 +214,6 @@ The wireframes were created using Balsamiq
 ### Libraries & Tools
 
 - [Am I Responsive](http://ami.responsivedesign.is/)
-- [Balsamiq](https://balsamiq.com/)
 - [Bootstrap v5](https://getbootstrap.com/)
 - [Cloudinary](https://cloudinary.com/)
 - [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
