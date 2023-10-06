@@ -825,6 +825,18 @@ The following browsers were used:
 
 ## Bugs
 
+| **Bug** | **Fix** |
+| ------- | ------- |
+| Form content was not rendering when a recipe post was opened | I adjusted the code in the post_detail html file so it takes the relevant fields from the post model |
+| Form titles were not rendering. User would not be able to tell the form sections apart | I adjusted the code in the post_detail html file and added the <p> element above the relevant form section. This is a temporary solution until I find a better way to do it|
+| I was getting NameError when trying to delete a post | I had forgotten to add 'redirect' in the import from django on my views.py file |
+| Error message TemplateSyntaxError when trying to add a post | I had forgotten to add {% load crispy_forms_tags %} to the top of the add_recipe html file |
+| When trying to make a comment TypeError was occuring | dateTimeField had to be changed from False to True on my comment model|
+| Drop down menu in my navbar was not working correctly as I had copied the code from an older version of Bootstrap | So instead of data-toggle I needed to add data-bs-toggle |
+
+##### Back to [top](#table-of-contents)
+<hr>
+
 ### Heroku Deployment
 
 ### Fork Repository
