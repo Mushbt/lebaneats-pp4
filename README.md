@@ -107,8 +107,14 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 - As a Admin I can create events so that Site Users can attend for example an online cooking tutorial
 
 ### Kanban, Epics & User Stories
+- GitHub Kanban was used to track all the user stories
+- Epics were created using the milestone feature
 
 <details><summary>Kanban</summary>
+[images go here]
+</details>
+
+<details><summary>Epics</summary>
 [images go here]
 </details>
 
