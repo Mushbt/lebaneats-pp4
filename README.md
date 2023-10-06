@@ -1,6 +1,6 @@
 # Lebaneats | Lebanese Food Blog
 
-![Am I responsive](Image here)
+![Am I responsive](static/media/readme_img/am_i_responsive.png)
 
 **Developer: Mustafa Habet**
 
@@ -111,15 +111,15 @@ Lebaneats Food Blog is a fictional blog dedicated to Lebanese Food. Users can vi
 - Epics were created using the milestone feature
 
 <details><summary>Kanban</summary>
-[images go here]
+<img src="static/media/readme_img/kanban.png">
 </details>
 
 <details><summary>Epics</summary>
-[images go here]
+<img src="static/media/readme_img/milestones.png">
 </details>
 
 <details><summary>User Stories</summary>
-[images go here]
+<img src="static/media/readme_img/user_stories.png">
 </details>
 
 ##### Back to [top](#table-of-contents)
