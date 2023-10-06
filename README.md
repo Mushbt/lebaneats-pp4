@@ -507,11 +507,21 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 2. As a Site User I can click on a post so that I can read the full text
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 3. As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral
 
@@ -520,12 +530,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 4. As a Site User / Admin I can view comments on an individual post so that I can read the conversation
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 5. As a Site User I can register an account so that I can create, edit, delete a post as well as liking and commenting on other posts
 
@@ -534,12 +554,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 6. As a Site User I can leave comments on a post so that I can be involved in the conversation
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 7. As a Site User I can like or unlike a post so that I can interact with the content
 
@@ -548,12 +578,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 8. As a Site Admin I can approve or disapprove user posts so that I can manage my blog content
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 9. As a Site Admin I can create draft posts so that I can finish writing the content later
 
@@ -562,12 +602,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 10. As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 11. As a Site User I can create a post so that other site users can view it
 
@@ -576,12 +626,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 12. As a Site User I can edit my post that I have created so that I can add or remove anything I have forgotten or added by accident
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 13. As a Site User I can delete my post so that other site users cannot see it
 
@@ -590,12 +650,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 14. As a Admin I can approve posts so that I can manage by blog content
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 15. 
 
@@ -604,12 +674,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 16. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 17. As a Site Owner I can provide pagination so that users have better user experience while on the site
 
@@ -618,12 +698,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 18. As a Site Owner I can provide an about us page so that the user can get information on what the site or content is about
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 19. As a Site Owner I can provide a fully responsive site so that users have a good user experience
 
@@ -632,12 +722,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 20. As a Site User I am notified when I post, edit and delete a post or when I register, login or logout of my account so that I know if my intended action was successful
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 21. As a Site User I can login so that I can have access to all functions of the site
 
@@ -646,6 +746,11 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 22. As a Site User I can logout so that I can secure my account on the site
 
 **Step** | **Expected Result** | **Actual Result**
@@ -653,12 +758,22 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
+
 23. As a Site User I can navigate easily through the site so that I can move between the different features of the site
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
+
+<details><summary>See feature images</summary>
+
+![](Insert image here)
+</details>
 
 
 ### Device Testing & Browser Compatibility
