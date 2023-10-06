@@ -891,7 +891,7 @@ You can clone the repository by following these steps:
 ### Images
 
 ### Code
-- I used the [Code Institute](https://codeinstitute.net/) 'I Think Therefore I Blog' walkthrough as my project base but I edited the models, added my own CRUD functionality and design.
+- I used the [Code Institute](https://codeinstitute.net/) 'I Think Therefore I Blog' walkthrough as my project base but I edited the models, added my own CRUD functionality and made changes to some of the initial design.
 
 ## Acknowledgements
 The site was done as part of a project piece for my Full Stack Software Development Diploma at the [Code Institute](https://codeinstitute.net/).
