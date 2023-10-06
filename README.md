@@ -737,11 +737,20 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| When registered user posts a recipe via the 'Share a recipe' tab in the navbar | User will see a '| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| When the user posts a recipe  | User will see a message indicating that the post needs to be authorized | Works as expected |
+| When a user edits their post | User will see a message indicating update was successful | Works as expected |
+| When a user deletes their post | User will see a message indicating deletion was successful | Works as expected |
+| When a user signs up the site | User will see a message indicating that they have signed up successfully | Works as expected |
+| When a user logs in | User will see a message indicating login was successful | Works as expected |
+| When a user logs out | User will see a message indicating logout was successful | Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -749,11 +758,12 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Registered user can login via the members tab in the nav bar | Users will have full access to all functions of the site | Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -761,11 +771,12 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Users can logout via the members tab in the nab bar | Users will be logged out | Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
@@ -773,11 +784,17 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
+| Users can navigate through all the links and tabs on the nav bar | pages will render depending on what user has clicked on | Works as expected |
+| Users can access external social media links in the footer | External social media websites will open in a separate window | Works as expected |
 
 <details><summary>See feature images</summary>
 
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
+![](Insert image here)
 ![](Insert image here)
 </details>
 
