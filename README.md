@@ -199,7 +199,7 @@ The Comment Model contains the following:
 - approved
 
 ### Wireframes
-
+Wireframes were not used in this project. The base of the design came from the [Code Institute](https://codeinstitute.net/) 'I Think Therefore I Blog' and I edited some of the design on the spot as I was developing.
 
 ## Technologies Used
 
