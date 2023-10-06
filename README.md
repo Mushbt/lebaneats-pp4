@@ -152,7 +152,7 @@ I decided to keep the simple font that Bootstrap provides via the Bootstrap CSS.
 
 #### Database
 
-- When creating the database structure schema for this project, I made use of the [dbdiagram.io](https://dbdiagram.io/) website. This online tool provided me with a visual platform to create and document the database schema, streamlining the planning and implementation process for the blog application's database.
+- When creating the database structure schema for this project, I made use of the [Figma](https://figma.com/) website. This online tool provided me with a visual platform to create and document the database schema, streamlining the planning and implementation process for the blog application's database.
 <details><summary>Database Schema</summary>
 <img src="">[Add image here]
 </details>
