@@ -242,7 +242,7 @@ The home page includes a navbar, a main body, and a footer.
 
 <details><summary>See featured image</summary>
 
-![Homepage](insert image here)
+![Homepage](/static/media/readme_img/home_page.png)
 </details>
 
 ### Logo & Navigation
@@ -251,20 +251,22 @@ The home page includes a navbar, a main body, and a footer.
 - Switches to hamburger menu on small screens.
 - Displayed on all pages.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![Logo](insert image here)
-![Navbar](insert image here)
-![Hamburger Menu](insert image here)
+![Logo](/static/media/readme_img/logo.png)
+
+![Navbar](/static/media/readme_img/navbar.png)
+
+![Hamburger Menu](/static/media/readme_img/hamburger_menu.png)
 </details>
 
 ### Footer
 - Contains social media links and copyright.
 - Displayed on all pages.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Footer](insert image here)
+![Footer](/static/media/readme_img/footer.png)
 </details>
 
 ### Sign up / Register
