@@ -269,6 +269,15 @@ The home page includes a navbar, a main body, and a footer.
 ![Footer](/static/media/readme_img/footer.png)
 </details>
 
+### About Us
+- Gives users more information about why the this site was created
+- Gives users more information about Lebanese cuisine
+
+<details><summary>See feature images</summary>
+
+![About Us](insert image here)
+</details>
+
 ### Sign up / Register
 - Allows users to register an account.
 - Username and password are required but email is optional.
