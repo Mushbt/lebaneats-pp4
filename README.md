@@ -200,6 +200,38 @@ The Comment Model contains the following:
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="static/media/readme_img/home_wf.png">
+</details>
+
+<details><summary>About</summary>
+<img src="static/media/readme_img/about_us_wf.png">
+</details>
+
+<details><summary>Blog</summary>
+<img src="static/media/readme_img/blog_wf.png">
+</details>
+
+<details><summary>Login</summary>
+<img src="static/media/readme_img/login_wf.png">
+</details>
+
+<details><summary>Logout</summary>
+<img src="static/media/readme_img/logout_wf.png">
+</details>
+
+<details><summary>Signup</summary>
+<img src="static/media/readme_img/signup_wf.png>
+</details>
+
+<details><summary>Add recipe</summary>
+<img src="static/media/readme_img/add_recipe_wf.png">
+</details>
+
+<details><summary>Post</summary>
+<img src="static/media/readme_img/post_wf.png">
+</details>
+
 ## Technologies Used
 
 ### Languages & Frameworks
