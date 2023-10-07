@@ -713,24 +713,21 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| All site pages were tested using [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/) and [Am I Responsive](https://ui.dev/amiresponsive) | All pages were responsive on different screen sizes | Works as expected |
+| Pages that do not require login were tested on [Am I Responsive](https://ui.dev/amiresponsive) | All pages were responsive on different screen sizes | Works as expected |
+| Pages that were not able to be tested on [Am I responsive](https://ui.dev/amiresponsive) due to CSRF verification failure were tested on [Google Dev Tools](https://developer.chrome.com/docs/devtools/) | All pages were responsive on different screen sizes | Works as expect |
+
 
 <details><summary>See feature images</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Home](static/media/readme_img/am_i_responsive.png)
+![About](static/media/readme_img/am_i_about.png)
+![Blog](static/media/readme_img/am_i_blog.png)
+![Login](static/media/readme_img/am_i_signup.png)
+![Signup](static/media/readme_img/am_i_signup.png)
+![Logout](static/media/readme_img/am_i_logout.png)
+![Post](static/media/readme_img/am_i_post.png)
+![Add Post](static/media/readme_img/am_i_add_recipe.png)
+![Edit](static/media/readme_img/am_i_edit.png)
 </details>
 
 17. As a Site User I am notified when I post, edit and delete a post or when I register, login or logout of my account so that I know if my intended action was successful
