@@ -470,6 +470,10 @@ Performance, best practices, and SEO were tested using Lighthouse.
 <img src="insert image here">
 </details>
 
+<details><summary>Post</summary>
+<img src="insert image here">
+</details>
+
 <details><summary>Register</summary>
 <img src="insert image here">
 </details>
@@ -501,6 +505,10 @@ Performance, best practices, and SEO were tested using Lighthouse.
 </details>
 
 <details><summary>Blog</summary>
+<img src="insert image here">
+</details>
+
+<details><summary>Post</summary>
 <img src="insert image here">
 </details>
 
