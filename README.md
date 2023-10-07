@@ -717,7 +717,7 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Pages that were not able to be tested on [Am I responsive](https://ui.dev/amiresponsive) due to CSRF verification failure were tested on [Google Dev Tools](https://developer.chrome.com/docs/devtools/) | All pages were responsive on different screen sizes | Works as expect |
 
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
 ![Home](static/media/readme_img/am_i_responsive.png)
 ![About](static/media/readme_img/am_i_about.png)
@@ -737,18 +737,17 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | When the user posts a recipe  | User will see a message indicating that the post needs to be authorized | Works as expected |
 | When a user edits their post | User will see a message indicating update was successful | Works as expected |
 | When a user deletes their post | User will see a message indicating deletion was successful | Works as expected |
-| When a user signs up the site | User will see a message indicating that they have signed up successfully | Works as expected |
+| When a user signs up the site | User will see a message indicating that they have signed in successfully | Works as expected |
 | When a user logs in | User will see a message indicating login was successful | Works as expected |
 | When a user logs out | User will see a message indicating logout was successful | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Recipe](static/media/readme_img/recipe_approval.png)
+![Edit](static/media/readme_img/edit_success.png)
+![Delete](static/media/readme_img/delete_confirm.png)
+![Signup & Signin](static/media/readme_img/successful_signin.png)
+![Logout](static/media/readme_img/success_logout.png)
 </details>
 
 18. As a Site User I can login so that I can have access to all functions of the site
@@ -757,24 +756,25 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Registered user can login via the members tab in the nav bar | Users will have full access to all functions of the site | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Share Recipe](static/media/readme_img/create_post.png)
+![Edit Recipe](static/media/readme_img/edit_post.png)
+![Delete Recipe](static/media/readme_img/delete_confirm.png)
+![Edit & Delete Buttons](static/media/readme_img/post.png)
+![Like](static/media/readme_img/like.png)
+![Comment](static/media/readme_img/comment.png)
 </details>
 
 19. As a Site User I can logout so that I can secure my account on the site
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Users can logout via the members tab in the nab bar | Users will be logged out | Works as expected |
+| Users can logout via the members tab in the nav bar | Users will be logged out | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Logout Nav](static/media/readme_img/members_logout_nav.png)
 </details>
 
 20. As a Site User I can navigate easily through the site so that I can move between the different features of the site
@@ -784,15 +784,10 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Users can navigate through all the links and tabs on the nav bar | pages will render depending on what user has clicked on | Works as expected |
 | Users can access external social media links in the footer | External social media websites will open in a separate window | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Navbar](static/media/readme_img/navbar.png)
+![Footer](static/media/readme_img/footer.png)
 </details>
 
 ##### Back to [top](#table-of-contents)
