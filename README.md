@@ -417,10 +417,6 @@ The W3C Markup Validation Service
 <img src="insert image here">
 </details>
 
-<details><summary>Delete recipe</summary>
-<img src="insert image here">
-</details>
-
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service
 
