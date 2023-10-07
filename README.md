@@ -834,7 +834,14 @@ The following browsers were used:
 | When trying to make a comment TypeError was occuring | dateTimeField had to be changed from False to True on my comment model|
 | Drop down menu in my navbar was not working correctly as I had copied the code from an older version of Bootstrap | So instead of data-toggle I needed to add data-bs-toggle |
 
-# Not Fixed
+# Remaining issues
+The issues that I am aware of are as followed:
+
+- Post Ingredients and Instructions do not render in a list.
+- When admin wants to save a draft, they must add atleast a letter to the mandatory fields so they can save otherwise it throws up an error.
+- Some fields in the admin page are not needed and need to be removed. I tried to remove them but many errors came up that I could not solve.
+- Signing in and Signing up has the same 'Success' message.
+- Need to add a delete confirmation when user tries to delete a post. At the moment it deletes right away.
 
 
 
