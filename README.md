@@ -382,39 +382,39 @@ The home page includes a navbar, a main body, and a footer.
 ### HTML Validation
 The W3C Markup Validation Service
 <details><summary>Home</summary>
-<img src="/static/media/validation/w3c_home.png">
+<img src="static/media/validation/w3c_home.png">
 </details>
 
 <details><summary>About</summary>
-<img src="/static/media/validation/w3c_about.png">
+<img src="static/media/validation/w3c_about.png">
 </details>
 
 <details><summary>Blog</summary>
-<img src="/static/media/validation/w3c_blog.png">
+<img src="static/media/validation/w3c_blog.png">
 </details>
 
 <details><summary>Share a recipe</summary>
-<img src="/static/media/validation/w3c_add_recipe.png">
+<img src="static/media/validation/w3c_add_recipe.png">
 </details>
 
 <details><summary>Register</summary>
-<img src="/static/media/validation/w3c_signup.png">
+<img src="static/media/validation/w3c_signup.png">
 </details>
 
 <details><summary>Login</summary>
-<img src="/static/media/validation/w3c_login.png">
+<img src="static/media/validation/w3c_login.png">
 </details>
 
 <details><summary>Logout</summary>
-<img src="/static/media/validation/w3c_logout.png">
+<img src="static/media/validation/w3c_logout.png">
 </details>
 
 <details><summary>Add recipe</summary>
-<img src="/static/media/validation/w3c_add_recipe.png">
+<img src="static/media/validation/w3c_add_recipe.png">
 </details>
 
 <details><summary>Edit recipe</summary>
-<img src="/static/media/validation/w3c_edit_recipe.png">
+<img src="static/media/validation/w3c_edit_recipe.png">
 </details>
 
 ### CSS Validation
