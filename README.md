@@ -4,7 +4,7 @@
 
 **Developer: Mustafa Habet**
 
-[Visit live website](Link goes here)
+[Visit live website](https://lebaneats-e428f9dc7d63.herokuapp.com/)
 
 ## Table of Contents
  - [About](#about)
