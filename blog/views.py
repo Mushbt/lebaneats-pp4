@@ -113,7 +113,7 @@ class PostDetail(View):
 def edit_recipe(request, slug):
     post = get_object_or_404(Post, slug=slug)
     recipe_form = RecipeForm(request.POST or None, instance=post)
-    
+
     context = {
         "recipe_form": recipe_form,
         "post": post,

@@ -424,11 +424,7 @@ The W3C Jigsaw CSS Validation Service
 </details><hr>
 
 ### PEP8 Validation
-PEP8 Validation Service was used to check the code for PEP8 requirements via Pycodestyle as PEP8online was down
-
-<details><summary>Tool used: Pycodestyle</summary>
-<img src="insert image here">
-</details>
+![PEP8CI](https://pep8ci.herokuapp.com/) was used to validate Python
 
 <hr><summary>Lebaneats</summary><hr>
 
