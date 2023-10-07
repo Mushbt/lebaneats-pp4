@@ -857,6 +857,8 @@ The following browsers were used:
 
 ## Bugs
 
+# Fixed
+
 | **Bug** | **Fix** |
 | ------- | ------- |
 | Form content was not rendering when a recipe post was opened | I adjusted the code in the post_detail html file so it takes the relevant fields from the post model |
@@ -865,6 +867,9 @@ The following browsers were used:
 | Error message TemplateSyntaxError when trying to add a post | I had forgotten to add {% load crispy_forms_tags %} to the top of the add_recipe html file |
 | When trying to make a comment TypeError was occuring | dateTimeField had to be changed from False to True on my comment model|
 | Drop down menu in my navbar was not working correctly as I had copied the code from an older version of Bootstrap | So instead of data-toggle I needed to add data-bs-toggle |
+
+# Bugs not fixed
+
 
 
 ##### Back to [top](#table-of-contents)
