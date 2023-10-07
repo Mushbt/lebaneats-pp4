@@ -420,7 +420,7 @@ The W3C Markup Validation Service
 The W3C Jigsaw CSS Validation Service
 
 <details><summary>Style.css</summary>
-<img src="insert image here">
+<img src="static/media/validation/w3c_css.png">
 </details><hr>
 
 ### PEP8 Validation
