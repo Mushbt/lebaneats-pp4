@@ -429,29 +429,29 @@ The W3C Jigsaw CSS Validation Service
 <hr><summary>Lebaneats</summary><hr>
 
 <details><summary>urls.py</summary>
-<img src="Insert image here">
+<img src="static/media/validation/lebeats_urls.py.png">
 </details>
 
 <hr><summary>Blog</summary><hr>
 
 <details><summary>admin.py</summary>
-<img src="Insert image here">
+<img src="static/media/validation/blog_admin.png">
 </details>
 
 <details><summary>forms.py</summary>
-<img src="Insert image here">
+<img src="static/media/validation/blog_forms.png">
 </details>
 
 <details><summary>models.py</summary>
-<img src="Insert image here">
+<img src="static/media/validation/blog_models.png">
 </details>
 
 <details><summary>urls.py</summary>
-<img src="Insert image here">
+<img src="static/media/validation/blog_urls.png">
 </details>
 
 <details><summary>views.py</summary>
-<img src="Insert image here">
+<img src="static/media/validation/blog_views.png">
 </details>
 
 ### Lighthouse
