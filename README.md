@@ -273,86 +273,86 @@ The home page includes a navbar, a main body, and a footer.
 - Gives users more information about why the this site was created
 - Gives users more information about Lebanese cuisine
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![About Us](insert image here)
+![About Us](/static/media/readme_img/about_us.png)
 </details>
 
 ### Sign up / Register
 - Allows users to register an account.
 - Username and password are required but email is optional.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Register](insert image here)
+![Register](/static/media/readme_img/signup.png)
 </details>
 
 ### Login
 - Users can login to create a recipe, edit their recipe, delete their recipe, like and comment on all recipes on the blog page.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Login](insert image here)
+![Login](/static/media/readme_img/login.png)
 </details>
 
 ### Logout
 - Allows the user to securely log out.
 - Asks the user if they are sure they want to logout.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Logout](Insert image here)
+![Logout](/static/media/readme_img/logout.png)
 </details>
 
 ### Blog
 - The blog displays each post that has been created by the admin or user.
 - Pagination is used to display 6 posts per page.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Blog](Insert image here)
+![Blog](/static/media/readme_img/blog_page.png)
 </details>
 
 ### Create Post
 - Allows registered users to create recipe posts that will be viewed on the blog page once the admin has authorized it.
 - User will add the recipe name, difficulty, length, ingredients and instructions.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Post](Insert image here)
+![Post](/static/media/readme_img/create_post.png)
 </details>
 
 ### Edit Post
 - Allows registered users to edit their own recipe posts incase they have forgotten anything or want to just remove something.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Edit](Insert image here)
+![Edit](/static/media/readme_img/edit_post.png)
 </details>
 
 ### Delete Post
 - Allows registered users to delete their own recipe posts incase they don't want it on the blog anymore.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Delete](Insert image here)
+![Delete](/static/media/readme_img/delete_button.png)
 </details>
 
 ### Like
 - Allows registered users to like any recipe posts they see on the blog page.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Like](Insert image here)
+![Like](/static/media/readme_img/like.png)
 </details>
 
 ### Comment
 - Allows registered users to comment on any recipe posts they see on the blog page.
 - All comments must be authorized by the Admin to avoid any negativity.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Comment](Insert image here)
+![Comment](/static/media/readme_img/comment.png)
 </details>
 
 ### Social Media Links
@@ -360,18 +360,18 @@ The home page includes a navbar, a main body, and a footer.
 - All links open in a new tab for better user experience.
 - Displayed on all the pages of the site.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Social Media](Insert image here)
+![Social Media](/static/media/readme_img/social_media.png)
 </details>
 
 ### Pagination
 - Pagination is used on the blog page
 - It ensures the page is kept tidy as it only allows for 6 recipe posts per page.
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![Pagination](Insert image here)
+![Pagination](/static/media/readme_img/pagination.png)
 </details>
 
 ##### Back to [top](#table-of-contents)
