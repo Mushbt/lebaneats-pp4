@@ -459,77 +459,77 @@ Performance, best practices, and SEO were tested using Lighthouse.
 #### Desktop
 
 <details><summary>Index</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/home_lh_desktop.png">
 </details>
 
 <details><summary>About Us</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/about_lh_desktop.png">
 </details>
 
 <details><summary>Blog</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/blog_lh_desktop.png">
 </details>
 
 <details><summary>Post</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/post_lh_desktop.png">
 </details>
 
 <details><summary>Register</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/signup_lh_desktop.png">
 </details>
 
 <details><summary>Login</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/login_lh_desktop.png">
 </details>
 
 <details><summary>Logout</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/logout_lh_desktop.png">
 </details>
 
 <details><summary>Create recipe</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/add_recipe_lh_desktop.png">
 </details>
 
 <details><summary>Edit recipe</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/edit_recipe_lh_desktop.png">
 </details>
 
 #### Mobile
 
 <details><summary>Index</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/home_lh_mobile.png">
 </details>
 
 <details><summary>About Us</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/about_lh_mobile.png">
 </details>
 
 <details><summary>Blog</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/blog_lh_mobile.png">
 </details>
 
 <details><summary>Post</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/post_lh_mobile.png">
 </details>
 
 <details><summary>Register</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/signup_lh_mobile.png">
 </details>
 
 <details><summary>Login</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/login_lh_mobile.png">
 </details>
 
 <details><summary>Logout</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/logout_lh_mobile.png">
 </details>
 
 <details><summary>Create recipe</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/add_recipe_lh_mobile.png">
 </details>
 
 <details><summary>Edit recipe</summary>
-<img src="insert image here">
+<img src="static/media/readme_img/edit_recipe_lh_mobile.png">
 </details>
 
 ##### Back to [top](#table-of-contents)
