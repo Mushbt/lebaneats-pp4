@@ -36,19 +36,27 @@ class Post(models.Model):
         if not self.slug:
             self.slug = self.title.replace(" ", '-')
         super().save(*args, **kwargs)
-
+        """
+        Allows user to edit their own post.
+        """
     def allowed_to_edit(self, request, slug):
 
         if self.author:
             return True
         else:
             return False
-
+        """
+        Allows user to delete their own post.
+        """
     def allowed_to_delete(self, request, slug):
         if self.author:
             return True
         else:
             return False
+
+        """
+        Comment model.
+        """
 
 
 class Comment(models.Model):
@@ -60,7 +68,13 @@ class Comment(models.Model):
     approved = models.BooleanField(default=False)
 
     class Meta:
+        """
+        Posts in descending order.
+        """
         ordering = ['created_on']
 
     def __str__(self):
+        """
+        Returns a string with comment and author.
+        """
         return f"Comment {self.body} by {self.name}"

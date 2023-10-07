@@ -13,6 +13,10 @@ def home(request):
 def about_us(request):
     return render(request, "about_us.html")
 
+    """
+    Add recipe function
+    """
+
 
 def add_recipe(request):
     recipe_form = RecipeForm(request.POST or None, request.FILES or None)
@@ -38,6 +42,9 @@ def add_recipe(request):
 
 
 class PostList(generic.ListView):
+    """
+    Creates the post list
+    """
     model = Post
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'blog.html'
@@ -45,6 +52,9 @@ class PostList(generic.ListView):
 
 
 class PostDetail(View):
+    """
+    Creates the post detail
+    """
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
