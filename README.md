@@ -539,9 +539,9 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Click on the 'Blog' link in the navigation bar | Blog will load| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
+![Blog](static/media/readme_img/blog_page.png)
 </details>
 
 2. As a Site User I can click on a post so that I can read the full text
@@ -550,9 +550,9 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
+![Post](static/media/readme_img/post.png)
 </details>
 
 3. As a Site User / Admin I can view the number of likes on each post so that I can see which is the most popular or viral
@@ -561,9 +561,9 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Once on the blog page | All posts have a heart with a number to show how many likes it has| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
+![Post Like](static/media/readme_img/post_like.png)
 </details>
 
 4. As a Site User / Admin I can view comments on an individual post so that I can read the conversation
@@ -572,9 +572,9 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Once any post is clicked, the post will open | Comments are rendered on the bottom of the post| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
+![View Comments](static/media/readme_img/see_comment.png)
 </details>
 
 5. As a Site User I can register an account so that I can create, edit, delete a post as well as liking and commenting on other posts
@@ -586,8 +586,8 @@ Performance, best practices, and SEO were tested using Lighthouse.
 
 <details><summary>See feature images</summary>
 
-![](Insert image here)
-![](Insert image here)
+![Register](static/media/readme_img/signup.png)
+![Successful Login](static/media/readme_img/successful_signin.png)
 </details>
 
 6. As a Site User I can leave comments on a post so that I can be involved in the conversation
@@ -596,9 +596,9 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | If you are logged in, once on a specific post, you can write a comment in the 'Leave a Comment' section and press Submit | Post page will reload and a 'waiting for approval message will appear'. Once admin has approved, comment will appear in the 'Comments' section | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
+![Leave Comment](static/media/readme_img/comment.png)
 </details>
 
 7. As a Site User I can like or unlike a post so that I can interact with the content
@@ -608,10 +608,10 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | If you are logged in, once on a specific post, press on the heart icon | if you have not liked the post before, heart will turn black and number will increment by 1 | Works as expected |
 | If you are logged in, once on a specific post, press on the heart icon | if you liked the post before, heart will turn white and number will decrement by 1| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![](Insert image here)
-![](Insert image here)
+![Like](static/media/readme_img/like.png)
+![Unlike](static/media/readme_img/unlike.png)
 </details>
 
 8. As a Site Admin I can approve or delete user posts so that I can manage my blog content
@@ -621,35 +621,21 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must tick the white box beside the post they want to approve. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Approve Recipe' and then press on the 'Go' button | The posts status will go from 'Draft' to 'Published', which will be the 3rd column on the specific post row.| Works as expected |
 | Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must tick the white box beside the post they want to delete. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Delete Selected Posts' and then press on the 'Go' button. Once pressed, a new page will load asking the Admin if they are sure they want to delete the post. Admin must then press on the 'Yes, I'm sure button' | Post will be deleted and a 'Successfuly deleted' message will appear| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Approve and Disapprove Post](static/media/readme_img/approve_disapprove_post.png)
 </details>
 
 9. As a Site Admin I can create draft posts so that I can finish writing the content later
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-| Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Posts' link under the 'Blog' section. Then admin must press on the 'Add Post' button located top right corner of the page. A 'Add Post' page will load and the admin can fill out the Post form. If they do not want it published, they can use the drop down menu by the 'Status' section to choose 'Draft'. Admin must then press the 'Save' button.| Admin 'Post' page will load and a 'Post added successfully' message will appear.| Works as expected |
+| Once Admin has logged in to the 'Admin' backend page, admin can press on the 'Add' link next to Posts under the 'Blog' section. A 'Add Post' page will load and the admin can fill out the Post form. If they do not want it published, they can use the drop down menu by the 'Status' section to choose 'Draft'. Admin must then press the 'Save' button.| Admin 'Post' page will load and a 'Post added successfully' message will appear.| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Draft Post](static/media/readme_img/draft_post.png)
+![Draft Saved](static/media/readme_img/draft_saved.png)
 </details>
 
 10. As a Site Admin I can approve or delete comments so that I can filter out objectionable comments
@@ -659,16 +645,9 @@ Performance, best practices, and SEO were tested using Lighthouse.
 | Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Comments' link under the 'Blog' section. Then admin must tick the white box beside the comment they want to approve. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Approve Comment' and then press on the 'Go' button | The comment 'Approved' coloumn will have a green tick which indicates the comment was approved | Works as expected |
 | Once Admin has logged in to the 'Admin' backend page, admin must press on the 'Comments' link under the 'Blog' section. Then admin must tick the white box beside the comment they want to delete. Once done, they press on the drop down menu which is labeled 'Action'. Once on drop down menu, admin must press on 'Delete Selected Comment' and then press on the 'Go' button. Once pressed, a new page will load asking the Admin if they are sure they want to delete the comment. Admin must then press on the 'Yes, I'm sure button'  | Post will open up| Comment will be deleted and a 'Successfuly deleted' message will appear |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Approve and Delete Comment](static/media/readme_img/approve_delete_comment.png)
 </details>
 
 11. As a Site User I can create a post so that other site users can view it
@@ -677,13 +656,11 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Once Site User is a member, they can click on the 'Share a Recipe' tab in the navbar. Add a Recipe page will render where the User must fill out all the fields in the form. Once done, they must press on the 'Submit' button on the bottom of the form. | Blog page will render with a message at the top of the page stating that their post is waiting approval. Post will show on the blog once approved by the admin | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Navbar](static/media/readme_img/member_navbar.png)
+![Create Post](static/media/readme_img/create_post.png)
+![Recipe Waiting Approval](static/media/readme_img/recipe_approval.png)
 </details>
 
 12. As a Site User I can edit the post that I have created so that I can add or remove anything I have forgotten or added by accident.
@@ -692,15 +669,10 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Once the registered user has logged in, they can click on their post on the blog page. Once their post has rendered, they should press on the 'Edit' button which is located under the post image. Edit your recipe form will render which the user can then make their updates on. Once the user is finished editing, they should press on the 'Edit' button at the bottom of the form. | Blog page will render and a message will appear on the top of the page telling the user they successfully updated their recipe. | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured images</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Edit Post](static/media/readme_img/edit_post.png)
+![Edit Success](static/media/readme_img/edit_success.png)
 </details>
 
 13. As a Site User I can delete my post so that other site users cannot see it
@@ -709,11 +681,10 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Once the registered user has logged in, they can click on their post on the blog page. Once their post has rendered, they should press on the 'Delete' button which is located under the post image. |  Blog page will render and a message will appear on the top of the page telling the user they successfully deleted their recipe.| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Delete Button](static/media/readme_img/delete_button.png)
+![Delete Success](static/media/readme_img/delete_confirm.png)
 </details>
 
 14. As a Site Owner I can provide pagination so that users have better user experience while on the site
@@ -721,13 +692,10 @@ Performance, best practices, and SEO were tested using Lighthouse.
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Once there are 6 posts on the blog page.  | The 7th post will appear on another page which can be accessed by pressing on the 'Next' button at the bottom of the blog page | Works as expected |
-| Click on any 'Post' on the blog page | Post will open up| Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
-![](Insert image here)
-![](Insert image here)
+![Pagination](static/media/readme_img/pagination.png)
 </details>
 
 15. As a Site Owner I can provide an about us page so that the user can get information on what the site or content is about
@@ -736,9 +704,9 @@ Performance, best practices, and SEO were tested using Lighthouse.
 ------------ | ------------ | ------------ |
 | Click on the 'About Us' link in the navigation bar | About us page will render | Works as expected |
 
-<details><summary>See feature images</summary>
+<details><summary>See featured image</summary>
 
-![](Insert image here)
+![About Us](static/media/readme_img/about_us.png)
 </details>
 
 16. As a Site Owner I can provide a fully responsive site so that users have a good user experience
@@ -868,7 +836,7 @@ The following browsers were used:
 | When trying to make a comment TypeError was occuring | dateTimeField had to be changed from False to True on my comment model|
 | Drop down menu in my navbar was not working correctly as I had copied the code from an older version of Bootstrap | So instead of data-toggle I needed to add data-bs-toggle |
 
-# Bugs not fixed
+# Not Fixed
 
 
 
