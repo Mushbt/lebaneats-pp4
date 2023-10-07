@@ -24,6 +24,7 @@
 </head>
 
 <body>
+  <!--Navbar-->
   <nav class="navbar navbar-expand-lg" style="background-color: red;">
     <a class="navbar-brand" href="{% url 'home' %}">LebanEats | Lebanese Food Blog</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -65,7 +66,7 @@
       </ul>
     </div>
   </nav>
-
+<!--Messages/Notification function-->
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
@@ -100,6 +101,7 @@
         aria-label="Instagram Link" target="_blank">
         <i class="fab fa-instagram social"></i></a>
   </footer>
+  <!--Js script for messages function-->
   <script>
     setTimeout(function () {
       let messages = document.getElementById("msg");

@@ -6,10 +6,13 @@
     <div class="container">
         <div class="row g-0">
             <div class="col-md-6">
+                <!--Post Title-->
                 <h1 class="post-title" style="color: green;">{{ post.title }}</h1>
+                <!--Post Author-->
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
             </div>
             <div class="d-md-block">
+                <!--Featured Image-->
                 {% if "placeholder" in post.featured_image.url %}
                 <img class="card-img-top" src="{% static 'media/site_img/lebanese_food.jpg' %}">
                 {% else %}
@@ -23,6 +26,7 @@
     <div class="row">
         <div class="col card mb-4 mt-3 left top">
             <div class="card-body">
+                <!--Edit and Delete Buttons-->
                 {% if user.id == post.author.id %}
                 <a href="{% url 'edit_recipe' post.slug %}" class="edit"><button class="btn btn-success"
                         value="{{ post.slug }}" type="button" style="background-color: green;">Edit</button></a>
@@ -39,6 +43,7 @@
         <div class="col card mb-4  mt-3 left top">
             <div class="card-body">
                 <p class="card-text">
+                <!--Post Content-->
                 <p>Length:</p>
                 {{ post.recipe_length }}
                 <hr>
@@ -55,11 +60,11 @@
                 <div class="row">
                     <div class="col-1">
                         <strong>
+                            <!--Post Like Button-->
                             {% if user.is_authenticated %}
                             <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
                                 {% csrf_token %}
                                 {% if liked %}
-
                                 <button type="submit" name="blogpost_id" value="{{post.slug}}" class="btn-like"><i
                                         class="fas fa-heart"></i></button>
 
@@ -74,10 +79,12 @@
 
                             <span class="text-secondary"><i class="far fa-heart"></i></span>
                             {% endif %}
+                            <!--Number of Likes-->
                             <span class="text-secondary">{{ post.number_of_likes }} </span>
                         </strong>
                     </div>
                     <div class="col-1">
+                        <!--Total Comments-->
                         {% with comments.count as total_comments %}
                         <strong class="text-secondary"><i class="far fa-comments"></i> {{ total_comments }} </strong>
                         {% endwith %}
@@ -91,6 +98,7 @@
             <hr>
         </div>
     </div>
+    <!--Comments box-->
     <div class="row">
         <div class="col-md-8 card mb-4 mt-3">
             <h3>Comments:</h3>
@@ -115,6 +123,7 @@
                     Your comment is awaiting approval
                 </div>
                 {% else %}
+                <!--Post Comment Box-->
                 {% if user.is_authenticated %}
                 <h3>Leave a comment:</h3>
                 <p>Posting as: {{ user.username }}</p>
