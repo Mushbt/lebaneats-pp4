@@ -842,6 +842,7 @@ The issues that I am aware of are as followed:
 - Some fields in the admin page are not needed and need to be removed. I tried to remove them but many errors came up that I could not solve.
 - Signing in and Signing up has the same 'Success' message.
 - Need to add a delete confirmation when user tries to delete a post. At the moment it deletes right away.
+- Featured image function not up and running yet.
 
 
 
@@ -849,6 +850,41 @@ The issues that I am aware of are as followed:
 <hr>
 
 ### Heroku Deployment
+
+
+1. Create a new app on Heroku dashboard.
+2. Navigate to "Settings" in new app.
+3. In "Config Vars," add `PORT` as the key and `8000` as its value.
+4. Choose PostgreSQL as database. "ElephantSQL" was used in this project.
+5. In "Config Vars," add `DATABASE_URL` and copy the URL from PostgreSQL dashboard. If using ElephantSQL as PostgreSQL provider, you can use the URL provided by ElephantSQL.
+6. Create a new file in workspace called `env.py`.
+7. Import the `os` library and set the environment variable for `DATABASE_URL` to the Heroku address (or ElephantSQL URL)
+8. Add a secret key using `os.environ["SECRET_KEY"] = "your secret key here"`.
+9. Add the secret key to the Heroku app's config vars in the settings.
+10. In `settings.py` of Django app, import `Path` from `pathlib`, `os`, and `dj_database_url`.
+11. Add `if os.path.isfile("env.py"): import env` to the file.
+12. Replace the SECRET_KEY with `SECRET_KEY = os.environ.get('SECRET_KEY')`.
+13. Replace the database section with `DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))}`.
+14. In workspace terminal, migrate the models to the new database connection.
+15. Log in to Cloudinary account or create one.
+16. Copy `CLOUDINARY_URL`.
+17. In `env.py`, add `os.environ["CLOUDINARY_URL"] = "add cloudinary_url here"`.
+18. In Heroku settings, add `CLOUDINARY_URL` to config vars.
+19. In `INSTALLED_APPS`, add `cloudinary_storage`, `Django.contrib.staticfiles`, and `cloudinary` in this order.
+20. Configure static file settings in `settings.py`: URL, storage path, directory path, root path, media URL, and default file storage.
+21. Link the file to the templates directory in Heroku with `TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')`.
+22. Change the templates directory to `TEMPLATES_DIR - 'DIRS': [TEMPLATES_DIR]`.
+23. Create three new folders: `media`, `static`, and `templates`.
+24. Create a `Procfile`.
+25. Add the following line inside the Procfile: `web: gunicorn project_name_here.wsgi`.
+26. Push all changes to GitHub.
+27. In the Heroku deployment tab, deploy to Heroku manually the first time and closely monitor the process.
+28. Once successful, set up automatic deployments.
+29. In the GitPod terminal, use the command `git add .` to stage changes.
+30. Commit changes with a descriptive comment using the command `git commit -m "Type comment here"`
+31. Push the updates to the repository on GitHub with the command `git push`
+32. In the terminal, migrate the models to the new database connection.
+
 
 ### Fork Repository
 To fork the repository by following these steps:
@@ -869,6 +905,7 @@ You can clone the repository by following these steps:
 ## Credits
 
 ### Images
+- The two images used in the site were taken from google images.
 
 ### Code
 - I used the [Code Institute](https://codeinstitute.net/) 'I Think Therefore I Blog' walkthrough as my project base but I edited the models, added my own CRUD functionality and made changes to some of the initial design.
