@@ -16,7 +16,7 @@
                         <div class="card-body" style="color: green;">
                             <div class="image-container" style="color: green;">
                                 {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top" src="{% static 'media/site_img/lebanese_food.jpg' %}">
+                                <img class="card-img-top" src="{% static 'media/site_img/lebanese_food.jpg' %}" alt="Food Platter">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
@@ -28,7 +28,7 @@
                                 <h2 class="card-title" style="color: green;">{{ post.title }}</h2>
                                 <p class="card-text" >{{ post.excerpt }}</p>
                             </a>
-                            <hr />
+                            <hr>
                             <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>
                                 {{ post.number_of_likes }}</p>
                         </div>
